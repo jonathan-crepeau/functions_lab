@@ -61,3 +61,10 @@
 // console.log(checkIfPandigital(132457));
 
 
+// SECTION Exercise #5: First, use the prompt() function to store the response to 'please enter some input' in a variable, 'userInput'. Then, write a function, 'printGreeting2', that takes a single string parameter, 'name', that returns a greeting with the name interpolated into said greeting. Use the alert() function to display the greeting to the user:
+
+// const printGreeting2 = (name) => {
+//   return alert('Welcome in, ' + name + '!');
+// }
+// let userInput = prompt('Please enter your name');
+// printGreeting2(userInput);
