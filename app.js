@@ -68,3 +68,33 @@
 // }
 // let userInput = prompt('Please enter your name');
 // printGreeting2(userInput);
+
+
+// SECTION Exercise #6: Write a function that, when called ("call" = "invoke") creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either a space (a "white square") or a # character (representing a black square). Hence, the characters should form a chessboard.
+
+// Calling your function should print something like this:
+
+// # # # #
+// # # # # 
+// # # # #
+// # # # # 
+// # # # #
+// # # # # 
+// # # # #
+// # # # #
+
+// const createSquares = (count) => {
+//   let squaresString = '';
+//   for (let i = 0; i < count; i++) {
+//     for (let y = 0; y < count/2; y++) {
+//       if (i % 2 == 0) {
+//         squaresString += ' #';
+//       } else {
+//         squaresString += '# ';
+//       }
+//     }
+//   squaresString += '\n'
+//   }
+//   return squaresString;
+// }
+// console.log(createSquares(8));
