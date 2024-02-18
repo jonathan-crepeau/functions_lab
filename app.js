@@ -98,3 +98,36 @@
 //   return squaresString;
 // }
 // console.log(createSquares(8));
+
+
+// SECTION Exercise #8: Modify 'calculate' above so that it continues to work as specified in question 3, but also lets a user get the square root of a number by specifying only 2 parameters: the number they want the square root of as the first parameter, and "sqrt" as the second parameter.
+
+// const calculate1 = (num1, num2, operation) => {
+//   if (num1 && (num2 === 'sqrt')) {
+//     return Math.sqrt(num1);
+//   }
+//   if (operation === 'add') {
+//     return num1 + num2;
+//   } else if (operation === 'sub') {
+//     return num1 - num2;
+//   } else if (operation === 'mult') {
+//     return num1 * num2;
+//   } else if (operation === 'div') {
+//     return num1 / num2;
+//   } else if (operation === 'exp') {
+//     return num1 ** num2;
+//   }
+// }
+// console.log(calculate1(2, 5, 'exp'));
+// console.log(calculate1(16, 'sqrt'));
+
+
+// const testArgumentLength = (input1, input2, input3) => {
+//   if (input3) {
+//     return 'there is a third argument!';
+//   }
+//   return 'there are only two arguments!';
+// }
+// console.log(testArgumentLength(1, 2, 3));
+// console.log(testArgumentLength('jonathan', 2));
+// console.log(testArgumentLength([], 2, 3));
